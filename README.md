@@ -1,4 +1,4 @@
-A little script to turn useless `title` attributes into meaningful `figcaption` content.
+A little script to turn [useless `title` attributes](https://www.tpgi.com/html5-accessibility-chops-title-attribute-use-and-abuse/) on Markdown images into semantically meaningful `figcaption` content.
 
 Install it with:
 
