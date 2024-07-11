@@ -1,1 +1,0 @@
-[Alt attribute.](data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs= "Caption")
