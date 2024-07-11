@@ -1,4 +1,4 @@
-A little script to turn [useless `title` attributes](https://www.tpgi.com/html5-accessibility-chops-title-attribute-use-and-abuse/) on Markdown images into semantically meaningful `figcaption` content.
+A little script to turn [useless `title` attributes](https://www.tpgi.com/html5-accessibility-chops-title-attribute-use-and-abuse/) on Markdown images into semantically meaningful `figcaption`s.
 
 Install it with:
 
@@ -27,7 +27,7 @@ A string following the filename in a Markdown image, like so, will normally bolt
 ![Screenshot of Firefox’s JavaScript console. Superimposed is a browser’s alert popup, reading “the page at matmarquis.com says ‘hi.’”](/img/Fig_1.2.png "Using `alert()` on a live website is the JavaScript equivalent of shouting “fire” in a crowded theatre: it isn’t illegal, but certainly isn’t going to win you any friends." 
 ```
 
-Instead, this wraps the result in a `figure`, puts what would be `title` content into a `figcaption` with a unique ID, and adds an `aria-describedby` to the inner `img`. In this case, Eleventy then goes on to work its `eleventy-img` magic:
+Instead, this little script wraps the result in a `figure`, puts what would be `title` content into a `figcaption` with a unique ID, and adds an `aria-describedby` to the inner `img`. In this case, Eleventy then goes on to work its `eleventy-img` magic, and the result is:
 
 ```html
 <figure>
